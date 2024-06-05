@@ -1,6 +1,6 @@
 {
   "name": "kapelli-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The kapelli cli tool",
   "bin": {
     "my-cli-demo": "bin/index.js"
