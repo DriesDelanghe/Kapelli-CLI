@@ -1,6 +1,6 @@
 {
   "name": "kapelli-cli",
-  "version": "0.0.1-alpha.1",
+  "version": "0.0.1",
   "description": "The kapelli cli tool",
   "bin": {
     "my-cli-demo": "bin/index.js"
@@ -9,7 +9,7 @@
   "scripts": {
     "watch": "tsc -w",
     "prepublishOnly": "node prepublish.js && tsc",
-    "release": "cross-env RELEASE_MODE=true np --no-tests"
+    "release": "cross-env RELEASE_MODE=true np --no-tests --any-branch"
   },
   "repository": {
     "type": "git",
