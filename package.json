@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "The kapelli cli tool",
   "bin": {
-    "my-cli-demo": "bin/index.js"
+    "kapelli": "bin/index.js"
   },
   "main": "bin/index.js",
   "scripts": {
@@ -27,14 +27,17 @@
   },
   "homepage": "https://github.com/DriesDelanghe/Kapelli-CLI#readme",
   "dependencies": {
-    "chalk": "^4.1.2",
-    "yargs": "^17.7.2"
+    "chalk": "4.1.2",
+    "yargs": "17.7.2"
   },
   "devDependencies": {
-    "@types/node": "^20.14.2",
-    "@types/yargs": "^17.0.32",
-    "cross-env": "^7.0.3",
-    "np": "^10.0.5",
-    "typescript": "^5.4.5"
+    "reflect-metadata": "0.2.2",
+    "@types/node": "20.14.2",
+    "@types/yargs": "17.0.32",
+    "cross-env": "7.0.3",
+    "np": "10.0.5",
+    "typedi": "0.10.0",
+    "typescript": "5.4.5",
+    "zod": "3.23.8"
   }
 }

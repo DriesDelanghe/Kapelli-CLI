@@ -1,5 +1,7 @@
 {
     "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
         "target": "es6",
         "module": "commonjs",
         "moduleResolution": "node",
@@ -7,7 +9,7 @@
         "declarationMap": true, // creates map files for our d.ts files
         "sourceMap": true, // creates map files for our source code
         "outDir": "bin", // compile source code into "bin" folder
-        "strict": true,
+        // "strict": true,
         "forceConsistentCasingInFileNames": true,
         "noImplicitAny": true,
         "esModuleInterop": true
