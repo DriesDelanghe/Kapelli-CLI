@@ -3,6 +3,8 @@ import Container from "typedi";
 import { CommandModule } from "yargs";
 import { DatamodelManager } from "../../managers/datamodel-manager";
 import { HashdiffManager } from "../../managers/hashdiff-manager";
+import * as yargs from 'yargs';
+
 
 const workingDir = process.cwd();
 
@@ -19,7 +21,7 @@ const hashdiff: CommandModule = {
             alias: 'f',
             describe: 'The path to the logical datamodel file',
             type: 'string',
-            demandOption: true
+            demandOption: true,
         })
     },
     handler: (argv) => {

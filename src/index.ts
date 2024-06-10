@@ -13,5 +13,6 @@ Container.set('workingDir', workingDir);
 yargs(hideBin(process.argv))
     .command(datamodel)
     .demandCommand()
+    .completion()
     .help()
     .argv
